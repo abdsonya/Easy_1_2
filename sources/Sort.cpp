@@ -34,6 +34,6 @@ namespace sort
 {
     void Sort(int* array, int size)
     {
-        sorting(array, 0, size - 1);
+        Sorting(array, 0, size - 1);
     }
 }
