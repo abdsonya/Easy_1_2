@@ -2,7 +2,7 @@
 
 namespace
 {
-    void sorting(int* array, int before, int after)
+    void Sorting(int* array, int before, int after)
     {
         if (before == after)
             return;
@@ -32,7 +32,7 @@ namespace
 }
 namespace sort
 {
-    void sort(int* array, int size)
+    void Sort(int* array, int size)
     {
         sorting(array, 0, size - 1);
     }
