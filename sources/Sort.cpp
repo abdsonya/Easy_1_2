@@ -17,13 +17,11 @@ namespace
         {
             if ((second > after) || ((first <= between) && (array[first] < array[second])))
             {
-                middle[i] = array[first];
-                first++;
+               middle[i] = array[first++];
             }
             else
             {
-                middle[i] = array[second];
-                second++;
+                middle[i] = array[second++];
             }
         }
 
