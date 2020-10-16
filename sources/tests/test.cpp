@@ -1,7 +1,7 @@
 #include <gtest/gtest.h>
 #include "../Sort.h"
 
-TEST(sorting, both)
+TEST(Sorting, both)
 {
     const int dim = 7;
     int sequence1[dim] = {8, 3, 1, 0, -1, -3, -8};
@@ -13,7 +13,7 @@ TEST(sorting, both)
     }
 }
 
-TEST(sorting, odd)
+TEST(Sorting, odd)
 {
     const int dim = 3;
     int sequence1[dim] = {7, 9, 5};
@@ -25,7 +25,7 @@ TEST(sorting, odd)
     }
 }
 
-TEST(sorting, same)
+TEST(Sorting, same)
 {
     const int dim = 4;
     int sequence1[dim] = {1, 1, 1, 1};
