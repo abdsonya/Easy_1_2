@@ -9,7 +9,7 @@ TEST(sorting, both)
     sort::sort(sequence1, dim);
     for (int k = 0; k < dim; k++)
     {
-        ASSERT_EQ(sequence2[k], sequence1[k]);
+        ASSERT_EQ(sequence[k], expected[k]);
     }
 }
 
@@ -21,7 +21,7 @@ TEST(sorting, odd)
     sort::sort(sequence1, dim);
     for (int k = 0; k < dim; k++)
     {
-        ASSERT_EQ(sequence2[k], sequence1[k]);
+        ASSERT_EQ(sequence[k], expected[k]);
     }
 }
 
@@ -32,7 +32,7 @@ TEST(sorting, same)
     sort::sort(sequence1, dim);
     for (int k = 1; k < dim; k++)
     {
-        ASSERT_EQ(sequence1[k-1], sequence1[k]);
+        ASSERT_EQ(sequence[k-1], expected[k]);
     }
 }
 
